@@ -1,0 +1,49 @@
+@use "./helpers" as *;
+
+$font-family: "League Spartan", sans-serif;
+
+body {
+    font-family: $font-family;
+}
+
+.text-1 {
+    font-size: px-rem(48);
+    line-height: 90%;
+    letter-spacing: px-rem(-2);
+    font-weight: 600;
+}
+
+.text-2 {
+    font-size: px-rem(40);
+    line-height: 100%;
+    letter-spacing: px-rem(-2);
+    font-weight: 600;
+}
+
+.text-3-b {
+    font-size: px-rem(16);
+    line-height: 140%;
+    letter-spacing: px-rem(7);
+    font-weight: 700;
+}
+
+.text-3-sb {
+    font-size: px-rem(16);
+    line-height: 100%;
+    letter-spacing: px-rem(-0.7);
+    font-weight: 600;
+}
+
+.text-3-m {
+    font-size: px-rem(16);
+    line-height: 140%;
+    letter-spacing: px-rem(-0.5);
+    font-weight: 500;
+}
+
+.text-4 {
+    font-size: px-rem(15);
+    line-height: 100%;
+    letter-spacing: px-rem(12.5);
+    font-weight: 500;
+}

@@ -1,0 +1,25 @@
+{
+  "name": "room-homepage-master",
+  "version": "1.0.0",
+  "description": "This is a solution to the [Room homepage challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/room-homepage-BtdBY_ENq). Frontend Mentor challenges help you improve your coding skills by building realistic projects.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Star-Mdakane/room-homepage-with-bem-and-sass.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Star-Mdakane/room-homepage-with-bem-and-sass/issues"
+  },
+  "homepage": "https://github.com/Star-Mdakane/room-homepage-with-bem-and-sass#readme",
+  "dependencies": {
+    "sass": "^1.97.2"
+  },
+  "devDependencies": {}
+}

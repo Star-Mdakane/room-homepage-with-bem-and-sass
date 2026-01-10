@@ -1,0 +1,18 @@
+@use "../abstracts" as *;
+
+body {
+    position: relative;
+    width: 100vw;
+    max-width: px-rem(1440);
+    min-width: px-rem(375);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+}

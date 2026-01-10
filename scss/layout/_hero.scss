@@ -1,0 +1,59 @@
+@use "../abstracts" as *;
+
+.hero {
+    position: relative;
+    height: px-rem(534);
+    transition: all 300ms ease-in-out;
+}
+
+.hero__slide {
+    opacity: 0;
+    display: grid;
+    grid-template-columns: 58.33% 41.66%;
+    // transform: scale(0);
+    pointer-events: none;
+    z-index: -1;
+}
+
+.hero__slide--active {
+    opacity: 1;
+    // transform: scale(1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+}
+
+.hero__image {
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+}
+
+.hero__image-dining {
+    background-image: url(../../images/desktop-image-hero-1.jpg);
+    // height: px-rem(534);
+    height: 100%;
+
+}
+
+.hero__image-chairs {
+    background-image: url(../../images/desktop-image-hero-2.jpg);
+}
+
+.hero__image-chair {
+    background-image: url(../../images/desktop-image-hero-3.jpg);
+}
+
+
+
+.hero__content {
+    position: relative;
+    height: 100%;
+    padding: px-rem(85) px-rem(139);
+    z-index: 5;
+    @extend %article-format;
+}

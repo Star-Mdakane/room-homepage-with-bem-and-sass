@@ -1,0 +1,39 @@
+@use "../abstracts" as *;
+
+.hero__nav {
+    // position: absolute;
+}
+
+.nav {
+    @extend %nav-layout;
+
+    &__item {
+
+        a {
+            color: $white;
+            display: inline-block;
+            padding-bottom: 0.5rem;
+            text-transform: capitalize;
+            position: relative;
+            outline: none;
+            cursor: pointer;
+        }
+
+        a::after {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 0;
+            height: 2px;
+            background-color: white;
+            transition: width 0.3s ease;
+        }
+
+        a:hover::after,
+        a:focus-visible::after {
+            width: 50%;
+        }
+    }
+}

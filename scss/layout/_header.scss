@@ -1,0 +1,21 @@
+@use "../abstracts" as *;
+
+header {
+    position: absolute;
+    width: 100%;
+    height: 1rem;
+    position: absolute;
+    top: px-rem(64);
+    // left: px-rem(64);
+    padding-left: px-rem(64);
+    display: flex;
+    z-index: 9;
+}
+
+.hero__burger {
+    display: none;
+}
+
+.hero__logo {
+    margin-right: px-rem(56);
+}

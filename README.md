@@ -49,6 +49,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - I set up my sass architecture, though it's a rolling task so I will continue adjusting.
 - Used BEM for my html structure.
 - The workflow I can do eith desktop or mobile but I feel it is much simpler convertng it to mobile, so it will be desktop-first workflow.
+- A gotcha you should always be mindul besides the importance of iimport is also the @use on every file, when you just learnt @import.
+- Had my head spinning for almost an hour just because of a namespace...new technology vibes.
 
 ### Built with
 

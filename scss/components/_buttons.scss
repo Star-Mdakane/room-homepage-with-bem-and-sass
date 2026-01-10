@@ -1,0 +1,60 @@
+@use "../abstracts" as *;
+
+.hero__buttons-container {
+    position: absolute;
+    display: flex;
+    left: px-rem(840);
+    bottom: 0;
+    width: px-rem(160);
+    height: px-rem(80);
+    background-color: $black;
+    z-index: 7;
+
+    button {
+        background-color: $black;
+        width: px-rem(80);
+        height: px-rem(80);
+    }
+
+    button:hover,
+    button:focus-visible {
+        background-color: $gy-800;
+    }
+}
+
+.hero__button-container {
+    position: absolute;
+    top: px-rem(364);
+    left: px-rem(980);
+
+    width: px-rem(234);
+    height: px-rem(15);
+    color: $black;
+    margin-top: 1.5rem;
+    z-index: 7;
+
+    .hero__button {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: $white;
+        text-transform: uppercase;
+
+        p {
+            color: $black;
+        }
+
+        &:hover,
+        &:focus-visible {
+            svg {
+                fill: $gy-500;
+                color: $gy-500;
+            }
+
+            p {
+                color: $gy-500;
+            }
+        }
+    }
+}

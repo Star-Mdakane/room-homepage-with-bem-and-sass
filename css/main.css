@@ -121,11 +121,14 @@ body {
 }
 
 .hero__slide {
+  height: 0;
   opacity: 0;
   display: grid;
   grid-template-columns: 58.33% 41.66%;
   pointer-events: none;
   z-index: -1;
+  transform-origin: top;
+  transition: all 300ms ease-in-out;
 }
 
 .hero__slide--active {
@@ -147,7 +150,6 @@ body {
 
 .hero__image-dining {
   background-image: url(../../images/desktop-image-hero-1.jpg);
-  height: 100%;
 }
 
 .hero__image-chairs {

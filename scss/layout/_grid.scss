@@ -1,0 +1,23 @@
+@use "../abstracts" as *;
+
+.grid {
+    width: 100%;
+    height: px-rem(266);
+    display: grid;
+    grid-template-columns: 29.17% 40.27% 30.56%;
+}
+
+.grid__content-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid__content {
+    @extend %article-format;
+    width: px-rem(484);
+
+    h2 {
+        text-transform: uppercase;
+    }
+}
